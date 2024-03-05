@@ -1,0 +1,80 @@
+:root{
+    --text: #041C32;
+    --background: #041C32;
+    --primary: #ECB365;
+    --secondary: #865c0e;
+    --accent: #04293A;
+
+}
+
+body {
+    margin: 0;
+    color: var(--text);
+    text-align: center;
+    background-color: var(--background);
+    font-family: "Inter", sans-serif;
+    min-width: 550px;
+}
+
+.hero{
+    background-color: var(--primary);
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    border-radius:  0px 0px 10px 10px;
+}
+.flex{
+    display: flex;
+    
+}
+
+h1, h3, p{
+    margin: 0;
+
+}
+input{
+    border: 1px solid var(--text);
+    background-color: transparent;
+    padding: 0 10px;
+    font-size: 60px;
+    color: var(--text);
+    width: 80px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    background-color: var(--text);
+    border: none;
+    width: fit-content;
+    margin: auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white
+}
+.results{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.resultDiv{
+    padding: 10px;
+    background-color: var(--accent);
+    color: var(--text);
+    border-radius: 5px;
+    color: white;
+}
+.resultDiv h3{
+    margin-bottom: 15px;
+    color: var(--primary)
+}
