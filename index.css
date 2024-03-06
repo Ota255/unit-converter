@@ -8,7 +8,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 1px;
     color: var(--text);
     text-align: center;
     background-color: var(--background);
