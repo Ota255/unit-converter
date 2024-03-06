@@ -8,12 +8,12 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     color: var(--text);
     text-align: center;
     background-color: var(--background);
     font-family: "Inter", sans-serif;
-    min-width: 550px;
+    min-width: 100px;
 }
 
 .hero{
